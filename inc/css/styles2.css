@@ -1,0 +1,23 @@
+.BLANCO {FONT-SIZE: 12px; font-weight: bold; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; } 
+A.BLANCO:link {FONT-SIZE: 12px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; } 
+A.BLANCO:active {FONT-SIZE: 12px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; } 
+A.BLANCO:visited {FONT-SIZE: 12px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; } 
+A.BLANCO:hover {FONT-SIZE: 12px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; text-decoration: underline; } 
+
+.AZUL {FONT-SIZE: 12px; font-weight: bold; color: #0000FF; font-family: Arial, Helvetica, sans-serif; } 
+A.AZUL:link {FONT-SIZE: 12px; color: #0000FF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; } 
+A.AZUL:active {FONT-SIZE: 12px; color: #0000FF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; } 
+A.AZUL:visited {FONT-SIZE: 12px; color: #0000FF; font-family: Arial, Helvetica, sans-serif; text-decoration: none; } 
+A.AZUL:hover {FONT-SIZE: 12px; color: #0000FF; font-family: Arial, Helvetica, sans-serif; text-decoration: underline; } 
+BODY {
+	BACKGROUND-COLOR:  #FFFFFF;
+	COLOR:  #0000FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+TD, P, DIV {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
