@@ -93,6 +93,57 @@
 - Sistema de backup y restauración
 - Estadísticas y reportes
 
+### 🐳 Entorno Docker
+
+El sistema incluye una configuración completa de Docker para facilitar el despliegue y desarrollo. El entorno está optimizado para ejecutar aplicaciones PHP legacy con las extensiones mysql necesarias.
+
+**Contenedores incluidos:**
+
+- **PHP 5.6 + Apache**: Servidor web con soporte para extensión mysql legacy y mysqli
+- **MySQL 5.7**: Base de datos preconfigurada con la estructura del sistema
+- **phpMyAdmin**: Interfaz web para administración de base de datos
+
+**Iniciar el entorno:**
+
+```bash
+# Construir y levantar los contenedores
+docker-compose up -d --build
+
+# Verificar estado de los contenedores
+docker-compose ps
+```
+
+**Acceso a servicios:**
+
+- Aplicación web: http://localhost:8080
+- phpMyAdmin: http://localhost:8081
+- MySQL: localhost:3306
+
+**Comandos útiles:**
+
+```bash
+# Detener servicios
+docker-compose down
+
+# Ver logs en tiempo real
+docker-compose logs -f
+
+# Acceder al contenedor PHP
+docker exec -it nelosa_php bash
+
+# Reiniciar servicios
+docker-compose restart
+```
+
+**Credenciales de base de datos:**
+
+- Usuario MySQL: `miki_nelosa`
+- Contraseña: `mqm1804`
+- Base de datos: `miki_nelosa`
+- Usuario root: `root` / `root`
+
+Para más información detallada sobre Docker, consulta [docker-start.md](docker-start.md).
+
 ---
 
 ## 🏗️ Arquitectura del Sistema

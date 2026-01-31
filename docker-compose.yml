@@ -1,0 +1,53 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nelosa_php
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - mysql
+    networks:
+      - nelosa_network
+
+  mysql:
+    image: mysql:5.7
+    container_name: nelosa_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: miki_nelosa
+      MYSQL_USER: miki_nelosa
+      MYSQL_PASSWORD: mqm1804
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - nelosa_network
+    command: --sql_mode=""
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: nelosa_phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: root
+      UPLOAD_LIMIT: 100M
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+    networks:
+      - nelosa_network
+
+volumes:
+  mysql_data:
+
+networks:
+  nelosa_network:
+    driver: bridge
