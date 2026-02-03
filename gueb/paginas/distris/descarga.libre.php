@@ -231,8 +231,8 @@ $Langy = new Languages($_SESSION['vs_lang']) ;
                                 <td><p align="center">CD.instrucciones</p>
                                   <p align="center"><a class="AZUL" href="http://www.nelosa.net/archivos/cd.instrucciones/cd.instrucciones.zip">Descargar</a></p></td>
                                 <td><p align="center">Instrucciones.interactivas</p>
-                                  <p align="center"><a class="AZUL" href="http://www.nelosa.net/archivos/instrucciones.interactivas/high.html">Ver</a> 
-                                    / <a class="AZUL" href="http://www.nelosa.net/archivos/instrucciones.interactivas/video.swf">Descargar 
+                                  <p align="center"><a class="AZUL" href="http://www.nelosa.net/archivos/interactivo/high.html">Ver</a> 
+                                    / <a class="AZUL" href="http://www.nelosa.net/archivos/interactivo/video.swf">Descargar 
                                     </a></p></td>
                               </tr>
                               <tr> 

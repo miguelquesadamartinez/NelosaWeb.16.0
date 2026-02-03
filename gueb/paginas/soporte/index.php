@@ -62,9 +62,9 @@ $Langy = new Languages($_SESSION['vs_lang']) ;
             <td><div align="center">
               <h5>&nbsp;</h5>
               <h5><font size="4" face="Arial, Helvetica, sans-serif"><a href="../instrucciones/index.php"><font size="3">Instrucciones Recarga</font></a></font></h5>
-              <h5><strong><a href="../../../archivos/instrucciones.interactivas/index.php">Instrucciones Recarga interactivas <br>
+              <h5><strong><a href="../../../archivos/interactivo/index.php">Instrucciones Recarga interactivas <br>
               </a>
-              <a href="../../../archivos/instrucciones.interactivas/interactivo.zip">Descarga (2.646 KB)</a></strong></h5>
+              <a href="../../../archivos/interactivo/interactivo.zip">Descarga (2.646 KB)</a></strong></h5>
               <h5><strong><font size="3" face="Arial, Helvetica, sans-serif"><a href="ask.php">Preguntanos</a></font></strong></h5>
               <p><strong><font size="3" face="Arial, Helvetica, sans-serif"><a href="../varias/software.php">Como utilizar el software (Pantillas) para centrar los dise&ntilde;os</a></font></strong></p>
               <p><strong><font color="#FF0000" face="Arial, Helvetica, sans-serif">Telefono</font> </strong></p>

@@ -59,7 +59,7 @@ $Langy = new Languages($_SESSION['vs_lang']) ;
   <table width="750" border="0" cellpadding="0" cellspacing="0" bgcolor="#FF8400">
     <tr>
       <td width="9" height="13" bgcolor="#FF8400"><img src="../../../img/diseno.paginas/lateral/left.jpg" width="9" height="450"></td>
-      <td width="203" valign="top" bgcolor="#FF8400"><p align="center"><strong><a href="../../../archivos/instrucciones.interactivas/index.php" target="_blank">Instrucciones interactivas</a></strong></p>
+      <td width="203" valign="top" bgcolor="#FF8400"><p align="center"><strong><a href="../../../archivos/interactivo/index.php" target="_blank">Instrucciones interactivas</a></strong></p>
         <p align="center"><strong><a href="aa.instrucciones.laser/consejos-generales-laser.php">Consejos Generales</a></strong></p>
         <p align="center"><strong>Tipos de Cartuchos</strong></p>
         <p align="center"><strong>A tener en cuenta sobre las diferentes marcas de impresoras<br>

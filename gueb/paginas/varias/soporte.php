@@ -63,8 +63,8 @@ $Langy = new Languages($_SESSION['vs_lang']) ;
                       <tr>
                         <td>
 						    <p align="center"><strong><a href="../instrucciones/index.php">Instrucciones Recarga</a></strong></p>
-                            <p align="center"><strong><a href="../../../archivos/instrucciones.interactivas/index.php">Instrucciones Recarga interactivas</a></strong></p>
-                            <p align="center"><strong><a href="../../../archivos/instrucciones.interactivas/interactivo.zip">Descarga (2.646 KB)</a></strong></p>
+                            <p align="center"><strong><a href="../../../archivos/interactivo/index.php">Instrucciones Recarga interactivas</a></strong></p>
+                            <p align="center"><strong><a href="../../../archivos/interactivo/interactivo.zip">Descarga (2.646 KB)</a></strong></p>
                             <p align="center"><strong><a href="mailto:info@nelosa.net">Preguntanos</a></strong></p>
                             <p align="center"><strong><a href="software.php">Como utilizar el software (Pantillas) para centrar los dise&ntilde;os</a></strong></p>
                             <p align="center"><strong><a href="../faq/index.php">Preguntas Hechas Frequentes - Recarga Ink-Jet</a></strong></p>
