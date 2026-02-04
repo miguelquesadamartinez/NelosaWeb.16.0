@@ -1,5 +1,6 @@
 <?php 
 session_name('nelosa');
+session_start();
 
 require_once ( "../inc/headers/vbles_sesion.php" );
 
